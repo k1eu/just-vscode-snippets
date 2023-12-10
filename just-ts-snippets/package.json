@@ -2,7 +2,7 @@
   "name": "just-ts-snippets",
   "displayName": "Just Typescript Snippets",
   "description": "Bare nessesity typescript and javascript snippets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "publisher": "k1eu",
   "engines": {
