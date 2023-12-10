@@ -1,0 +1,38 @@
+{
+  "name": "just-ts-snippets",
+  "displayName": "Just Typescript Snippets",
+  "description": "Bare nessesity typescript and javascript snippets",
+  "version": "0.0.1",
+  "license": "MIT",
+  "publisher": "k1eu",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k1eu/just-vscode-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./ts-snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./ts-snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./ts-snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./ts-snippets.json"
+      }
+    ]
+  }
+}
