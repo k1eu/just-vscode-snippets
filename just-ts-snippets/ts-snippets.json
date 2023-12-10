@@ -30,9 +30,15 @@
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
   "consoleLogObject": {
+    "prefix": "cln",
+    "body": ["console.log({${1:first}})"],
+    "description": "Logs property as object.",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "consoleLogWithName": {
     "prefix": "clo",
     "body": ["console.log('${1:first}', ${1:first})"],
-    "description": "Logs property with name.",
+    "description": "Logs property as object.",
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
   "consoleLogJson": {
@@ -84,11 +90,6 @@
   "importEverything": {
     "prefix": "ime",
     "body": ["import * as ${2:second} from '${1:first}'"],
-    "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "importNoModuleName": {
-    "prefix": "imnmn",
-    "body": ["import '${1:first}'"],
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
   "import": {
